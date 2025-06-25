@@ -1,4 +1,4 @@
-# Divir e Conquistar - PA
+# Dividir e Conquistar - PA
 
 **Número da Lista**: 4<br>
 **Conteúdo da Disciplina**: Dividir e Conquistar<br>
@@ -16,3 +16,5 @@ Resolução de questões do LeetCode (2 difíceis e 2 médias) pelos integrantes
 
 |Questão | Dificuldade |
 | -- | -- |
+| [1569. Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/description/) |   Difícil |
+| [2343. Query Kth Smallest Trimmed Number](https://leetcode.com/problems/query-kth-smallest-trimmed-number/description/) |   Média |
