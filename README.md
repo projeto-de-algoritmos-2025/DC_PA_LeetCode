@@ -35,9 +35,9 @@ O código resolve o problema de encontrar a subarray com a maior soma em um arra
 
 
 ## [1569. Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/description/) - Difícil
-
+A questão pede para encontrar quantas maneiras diferentes é possível reordenar um vetor de forma que, ao inserir os elementos na nova ordem em uma árvore binária de busca, o resultado seja exatamente o mesmo da árvore construída com a ordem original. Para resolver isso utilizei o algoritmo de dividir e conquistar. A ideia é separar os elementos em dois grupos: os que iriam para a subárvore esquerda (menores que a raiz) e os da direita (maiores que a raiz). A função é chamada recursivamente para cada lado, e o número de formas de intercalar os elementos das duas subárvores é calculado por meio de combinações. No final, o número total de reordenações possíveis que mantêm a mesma árvore binária de busca é retornado, descontando a ordem original.
 ![Print da Resolução 1569](/Questoes/assets/img1569.jpg)
 
 ## [2343. Query Kth Smallest Trimmed Number](https://leetcode.com/problems/query-kth-smallest-trimmed-number/description/) - Média 
-
+A questão trata de um vetor composto por strings numéricas e uma lista de consultas queries. Cada consulta pede para recortar os últimos dígitos de cada número, ordenar esses números recortados e retornar o índice original do k-ésimo menor número. Para isso, o algoritmo gera uma lista de tuplas contendo o número recortado e seu índice original. Em seguida, aplica uma ordenação com base nesses valores, garantindo que em caso de empate o número com menor índice prevaleça. O índice correspondente ao k-ésimo menor número recortado é adicionado à resposta final. Em uma versão alternativa, a ordenação foi implementada usando Merge Sort, o que introduz a técnica de dividir e conquistar na solução.
 ![Print da Resolução 2343](/Questoes/assets/img2343.jpg)
