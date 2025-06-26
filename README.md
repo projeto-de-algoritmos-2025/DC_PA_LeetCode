@@ -41,3 +41,7 @@ A questão pede para encontrar quantas maneiras diferentes é possível reordena
 ## [2343. Query Kth Smallest Trimmed Number](https://leetcode.com/problems/query-kth-smallest-trimmed-number/description/) - Média 
 A questão trata de um vetor composto por strings numéricas e uma lista de consultas queries. Cada consulta pede para recortar os últimos dígitos de cada número, ordenar esses números recortados e retornar a posição original do k-ésimo menor número. Utilizei o algoritmo Merge Sort, que aplica dividir e conquistar ao ordenar manualmente os números recortados com base em seu valor e, em caso de empate, pela posição original. Cada consulta recorta os números conforme o valor de trim, ordena as tuplas (recorte, índice) com Merge Sort e retorna a posição do k-ésimo menor recorte. O resultado final é uma lista com as posições correspondentes de todas as consultas.
 ![Print da Resolução 2343](/Questoes/assets/img2343.jpg)
+
+
+## Vídeo de explicação das Questões:
+
