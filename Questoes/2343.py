@@ -2,6 +2,7 @@ from typing import List, Tuple
 
 class Solution:
     def smallestTrimmedNumbers(self, nums: List[str], queries: List[Tuple[int, int]]) -> List[int]:
+        
         def merge_sort(arr: List[Tuple[str, int]]) -> List[Tuple[str, int]]:
             if len(arr) <= 1:
                 return arr
@@ -9,7 +10,6 @@ class Solution:
             mid = len(arr) // 2
             left = merge_sort(arr[:mid])
             right = merge_sort(arr[mid:])
-
             return merge(left, right)
 
         def merge(left: List[Tuple[str, int]], right: List[Tuple[str, int]]) -> List[Tuple[str, int]]:
@@ -42,3 +42,4 @@ class Solution:
             results.append(index)
 
         return results
+
