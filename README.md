@@ -44,4 +44,6 @@ A questão trata de um vetor composto por strings numéricas e uma lista de cons
 
 
 ## Vídeo de explicação das Questões:
+https://github.com/user-attachments/assets/ba332e26-c7b1-4584-8ff2-c44045de334d
+
 
