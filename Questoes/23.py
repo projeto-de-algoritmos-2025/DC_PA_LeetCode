@@ -6,7 +6,7 @@ class Solution:
         while len(lists) > 1:
             merged_lists = []
             
-            # Combine pares de listas
+            
             for i in range(0, len(lists), 2):
                 l1 = lists[i]
                 l2 = lists[i + 1] if i + 1 < len(lists) else None
@@ -15,7 +15,7 @@ class Solution:
             lists = merged_lists
         
         return lists[0]
-    
+    # Função recursiva
     def mergeTwoLists(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         if not l1:
             return l2
